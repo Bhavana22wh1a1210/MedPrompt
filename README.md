@@ -1,20 +1,35 @@
+# MedPrompt – Smart AI Clinical Report Analyzer
+
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+## Overview
+MedPrompt is a web-based AI system that simplifies complex medical reports into patient-friendly summaries. It supports multimodal inputs such as text, scanned reports, DICOM images, and voice data.
 
-This contains everything you need to run your app locally.
+## Features
+- Multimodal Input Processing (Text, Image, Voice, DICOM)
+- OCR-based Text Extraction
+- NLP-based Medical Entity Recognition
+- AI-generated Patient-Friendly Summaries
+- Multilingual Support
+- Admin Dashboard & User Monitoring
+- Secure Authentication (JWT)
 
-View your app in AI Studio: https://ai.studio/apps/5b808a3c-6bcb-46c2-b119-e18340330325
+## Tech Stack
+- Frontend: Next.js  
+- Backend: FastAPI  
+- Database: MongoDB  
+- AI: OCR + NLP + LLM (Gemini)
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+### Prerequisites
+- Node.js installed
+- Python (for backend)
+- MongoDB
 
-
+### Steps
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
